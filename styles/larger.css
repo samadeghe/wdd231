@@ -1,0 +1,99 @@
+@media only screen and (min-width: 32rem) {
+
+    header,
+    main,
+    nav,
+    footer {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    header {
+        grid-template-columns: 24px auto;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        border-bottom: solid 1px #eee;
+        justify-content: flex-end;
+        /* Align content to the right */
+
+    }
+
+    .navigation ul {
+        display: flex;
+        margin: 0;
+        padding: 0 20px;
+    }
+
+    .navigation li {
+        margin-left: 30px;
+        /* Control the spacing between each link */
+    }
+
+    .navigation a {
+        border: none;
+    }
+
+    /* --------- section box -------- */
+    .box {
+        display: grid;
+
+        grid-template-columns: 2fr 1fr;
+
+        grid-template-rows: auto auto;
+
+        gap: 20px;
+    }
+
+    .top-left {
+
+        grid-row: 1;
+        grid-column: 1;
+        background-color: #eee;
+    }
+
+    .top-right {
+
+        grid-row: 1;
+        grid-column: 2;
+        background-color: #eee;
+    }
+
+    .bottom {
+
+        grid-column: span 2;
+
+        grid-row: 2;
+
+    }
+
+
+    .top-left,
+    .top-right {
+        min-height: 200px;
+    }
+
+    picture {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+
+    }
+
+    .bottom {
+        min-height: 150px;
+    }
+
+    /* use CSS Grid to create 3 column */
+    .course-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}

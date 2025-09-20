@@ -1,11 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samantha Adeghe</title>
+    <title>Course Home Page</title>
+    <meta name="description" content="WDD 231 - Web Frontend Development I. Samantha Adeghe.">
+    <meta name="author" content="Samantha Adeghe">
+
+    <!-- Google Font Here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Style Sheets Here -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- JS Here -->
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Social Media Meta -->
+    <meta property="og:title" content="Samantha Adeghe's website">
+    <meta property="og:description"
+        content="This is Samantha Adeghe's website for WDD 231 - Web Frontend Development I.">
+    <meta property="og:image"
+        content="https://drive.google.com/file/d/1w9YsM8gqUDUPZfXTURSFbBkbNphjNFBi/view?usp=sharing" />
+    <meta property="og:url"
+        content="https://drive.google.com/file/d/1w9YsM8gqUDUPZfXTURSFbBkbNphjNFBi/view?usp=sharing">
+
 </head>
+
 <body>
-    WDD-231, CERTIFIED WEB DEVELOPER
+    <header>
+        <img src="images/star.svg" alt="Site Logo" width="32" height="32">
+        <span>Samantha Adeghe's Site</span>
+        <button id="ham-btn" class="hamburger" aria-label="Open the main menu"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chamber.html">Chamber</a></li>
+            <li><a href="final.html">Final</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <div class="box">
+            <section class="top-left">
+                <h2>About Me</h2>
+                <p>My name is Samantha Adeghe. I am from Nigeria. I am passionate about learning and growing in different fields, and I
+                also enjoy teaching and mentoring others. The reason I chose this certificate is because I want to deepen my
+                professional knowledge and skills in programming and web development. My dream is to build solutions that can impact
+                people positively and to use my skills in service to my community. Although coding can sometimes be challenging, I am
+                eager to learn more principles and techniques in this course so I can gain confidence and become better at it.</p>
+            </section>
+            <section class="top-right">
+                <h2>Student Photo</h2>
+                <picture>
+                    <source srcset="images/sam-pic" media="(min-width: 1000px)">
+                    <source srcset="images/sam-pic" media="(min-width: 500px)">
+                    <img src="images/sam pic.jpg" alt="sam-pic" width="300" height="300">
+                </picture>
+            </section>
+            <section class="bottom">
+                <h2>Web Certificate Courses</h2>
+                <div class="filter-buttons">
+                    <button id="showAll">All</button>
+                    <button id="showWDD">WDD</button>
+                    <button id="showCSE">CSE</button>
+                </div>
+
+                <div id="course-list" class="course-grid"></div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/samantha-adeghe/" target="_blank"><img src="images/facebook.svg"
+                    alt="facebook" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/in/samantha-adeghe/" target="_blank"><img src="images/linkedin.svg"
+                    alt="linked in" width="16" height="16"></a>
+            <a href="https://github.com/samadeghe" target="_blank"><img src="images/github.svg" alt="githubicon"
+                    width="16" height="16"></a>
+        </div>
+        <p><span id="currentyear"></span></p>
+        <p><span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/navigation.js"></script>
 </body>
+
 </html>
