@@ -1,0 +1,74 @@
+{
+    "members": [
+        {
+            "name": "Ikeja Digital Hub",
+            "address": "12 Tech Road, Ikeja, Lagos",
+            "phone": "+234 810 123 4567",
+            "website": "https://www.ikejadh.com",
+            "imagefile": "ikejadh.webp",
+            "membershiplevel": 3,
+            "description": "Leading co-working space and tech incubation center.",
+            "tagline": "Innovate. Collaborate. Grow."
+        },
+        {
+            "name": "Lagos Logistics Services",
+            "address": "4 Warehouse Ave, Oshodi, Lagos",
+            "phone": "+234 905 987 6543",
+            "website": "https://www.lagoslogistics.com",
+            "imagefile": "lgs.webp",
+            "membershiplevel": 2,
+            "description": "Reliable freight and shipping solutions across West Africa.",
+            "tagline": "Delivering your business, globally."
+        },
+        {
+            "name": "Best Bites Bakery",
+            "address": "30 Bakery St, Opebi, Lagos",
+            "phone": "+234 703 111 2222",
+            "website": "https://www.bestbites.ng",
+            "imagefile": "bestbites.webp",
+            "membershiplevel": 1,
+            "description": "Local bakery specializing in artisan breads and pastries.",
+            "tagline": "The taste of home, freshly baked."
+        },
+        {
+            "name": "Financial Future Corp",
+            "address": "5 F.F. Plaza, Allen Ave, Lagos",
+            "phone": "+234 809 333 4444",
+            "website": "https://www.financialfuture.com",
+            "imagefile": "ffc.webp",
+            "membershiplevel": 3,
+            "description": "A top-tier financial advisory and investment firm.",
+            "tagline": "Securing your tomorrow, today."
+        },
+        {
+            "name": "Gbedu Music Academy",
+            "address": "9 Melodies Rd, GRA, Lagos",
+            "phone": "+234 802 555 6666",
+            "website": "https://www.gbedu.ng",
+            "imagefile": "gbedu.webp",
+            "membershiplevel": 1,
+            "description": "Provides instruction in traditional and modern African music.",
+            "tagline": "Rhythm and passion, taught here."
+        },
+        {
+            "name": "Unity Non-Profit Foundation",
+            "address": "7 Charity Lane, Ikeja, Lagos",
+            "phone": "+234 708 777 8888",
+            "website": "https://www.unitynpf.org",
+            "imagefile": "unity.webp",
+            "membershiplevel": 1,
+            "description": "Dedicated to youth empowerment and community health.",
+            "tagline": "Building a better Ikeja, together."
+        },
+        {
+            "name": "Golden Star Hotels",
+            "address": "1 Lagos Blvd, Airport Rd, Lagos",
+            "phone": "+234 807 999 0000",
+            "website": "https://www.goldenstar.com",
+            "imagefile": "gsh.webp",
+            "membershiplevel": 2,
+            "description": "Premium hotel and conference facilities near the airport.",
+            "tagline": "Luxury redefined."
+        }
+    ]
+}

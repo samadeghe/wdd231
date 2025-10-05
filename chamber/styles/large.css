@@ -1,0 +1,183 @@
+@media only screen and (min-width: 64rem) {
+
+    header,
+    main,
+    nav,
+    footer {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    /* Update the header to use flex for better alignment */
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1rem;
+        /* Adjust padding for desktop */
+    }
+
+    /* Ensure the logo section remains on the left */
+    .logo-section {
+        flex-shrink: 0;
+    }
+
+
+    h1,
+    h2 {
+        font-size: 2rem;
+        /* Larger font size for desktop */
+    }
+
+    /* Main H1 on directory page */
+    main h1 {
+        font-size: 2.5rem;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    /* Navigation is visible on desktop */
+    .navigation {
+        display: block;
+        position: static;
+        width: auto;
+        background: none;
+        border-bottom: none;
+    }
+
+    .navigation ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        justify-content: flex-end;
+        /* Push links to the right */
+    }
+
+    .navigation a {
+        border: none;
+        color: var(--accent-color);
+        padding: 0.8rem 1rem;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .navigation a:hover {
+        background-color: var(--secondary-color);
+        color: var(--accent-color);
+    }
+
+    /* Push the nav to the right side of the header */
+    header nav {
+        flex-grow: 1;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    /* Directory Menu (Grid/List Buttons) */
+    .menu {
+        justify-content: flex-end;
+    }
+
+    /* --------- Directory -------- */
+    .cards {
+        display: grid;
+        grid-gap: 1.5rem;
+        /* Three columns for the grid view on desktop */
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /* List view on desktop */
+    .list section {
+        /* Name | Address | Phone | Membership | Website */
+        grid-template-columns: 1.5fr 2fr 1fr 1fr 0.5fr;
+        padding: 1rem;
+    }
+
+    /* Show headings for list view on desktop */
+    .list .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list section h2 {
+        grid-column: auto;
+    }
+
+    /* Placeholder for list header/labels (optional, must be added to HTML) 
+    .list-header {
+        display: grid;
+        grid-template-columns: 1.5fr 2fr 1fr 1fr 0.5fr;
+        font-weight: 700;
+        background-color: var(--primary-color);
+        color: var(--light-text);
+        padding: 1rem;
+        border-radius: 8px 8px 0 0;
+    }
+    */
+
+    /* ---------- Home (Placeholder rules from before) ----------- */
+    .event-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        padding: 0.25rem;
+    }
+
+    .events {
+        grid-column: span 2;
+        max-width: none;
+    }
+
+    /* -------------Join (Placeholder rules from before)---------- */
+    .join {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .member-grid .member-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /* ----------Discover (Placeholder rules from before)---------- */
+    .discover-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+    }
+
+    .discover-cards div {
+        display: grid;
+        grid-template-areas:
+            "name name"
+            "image description"
+            "image address"
+            "learnmore learnmore";
+    }
+
+    .discover-cards div img {
+        margin-top: 15px;
+        justify-self: center;
+        width: 100%;
+        /* Ensure image uses its grid area */
+        height: auto;
+    }
+
+    .discover-cards img:hover {
+        transform: scale(1.05);
+        /* Reduced scale for better control */
+        mix-blend-mode: difference;
+    }
+
+
+    /* ---------- Footer -------- */
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        padding: 20px;
+        text-align: left;
+    }
+}

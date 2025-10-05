@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "fieldsnames": "Coscharis Motors Plc",
+            "address": "1-3, Coscharis St., Kirikiri Rd, Apapa (Lagos Office is major), Ikeja, Lagos",
+            "phonenumber": "+234 812 345 6701",
+            "websiteurl": "https://www.coscharisgroup.net",
+            "image": "coscharis-motors.webp",
+            "membershiplevel": "Gold",
+            "email": "sales@coscharisgroup.net"
+        },
+        {
+            "fieldsnames": "Neimeth International Pharmaceuticals Plc",
+            "address": "1, Henry Carr Street, Ikeja Industrial Estate, Ikeja, Lagos",
+            "phonenumber": "+234 812 345 6702",
+            "websiteurl": "https://www.neimethplc.com",
+            "image": "neimeth-pharma.webp",
+            "membershiplevel": "Silver",
+            "email": "info@neimethplc.com"
+        },
+        {
+            "fieldsnames": "Shoregate Hotels Limited",
+            "address": "29 Joel Ogunaike Street, Ikeja GRA, Ikeja, Lagos",
+            "phonenumber": "+234 812 345 6703",
+            "websiteurl": "https://www.shoregatehotels.com",
+            "image": "shoregate-hotel.webp",
+            "membershiplevel": "Platinum",
+            "email": "reservations@shoregatehotels.com"
+        },
+        {
+            "fieldsnames": "Credit Direct Limited (Finance)",
+            "address": "48/50 Isaac John Street, Ikeja GRA, Ikeja, Lagos",
+            "phonenumber": "+234 812 345 6704",
+            "websiteurl": "https://www.creditdirect.ng",
+            "image": "credit-direct.webp",
+            "membershiplevel": "Gold",
+            "email": "support@creditdirect.ng"
+        },
+        {
+            "fieldsnames": "SystemartsTeks Limited (ICT)",
+            "address": "12 Toyin Street, Ikeja, Lagos",
+            "phonenumber": "+234 812 345 6705",
+            "websiteurl": "https://www.systemartsteks.com",
+            "image": "systemartsteks.webp",
+            "membershiplevel": "Bronze",
+            "email": "contact@systemartsteks.com"
+        },
+        {
+            "fieldsnames": "Deekay Group Nigeria (Trading)",
+            "address": "144, Oba Akran Avenue, Ikeja, Lagos",
+            "phonenumber": "+234 812 345 6706",
+            "websiteurl": "https://www.deekaygroup.net",
+            "image": "deekay-group.webp",
+            "membershiplevel": "Silver",
+            "email": "admin@deekaygroup.net"
+        },
+        {
+            "fieldsnames": "Empire Trust Microfinance Bank",
+            "address": "35 Oba Akran Avenue, Ikeja, Lagos",
+            "phonenumber": "+234 812 345 6707",
+            "websiteurl": "https://www.empiretrustmfb.com",
+            "image": "empire-trust-mfb.webp",
+            "membershiplevel": "Platinum",
+            "email": "customercare@empiretrustmfb.com"
+        }
+    ]
+}

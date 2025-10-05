@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory | Ikeja Chamber of Commerce</title>
+    <meta name="description" content="Ikeja Chamber of Commerce">
+    <meta name="author" content="Samantha Adeghe">
+
+    <!-- Google Font Here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+
+    <!-- Style Sheets Here -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <!-- JS Here -->
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Facebook Open Graph Meta Settings -->
+    <meta property="og:title" content="Ikeja Chamber of Commerce Official Directory">
+    <meta property="og:description"
+        content="Official business directory for the Ikeja Chamber of Commerce. Connecting businesses in Ikeja, Lagos.">
+    <meta property="og:image" content="https://samadeghe.github.io/wdd231/chamber/images/og-image.webp" />
+    <meta property="og:url" content="https://samadeghe.github.io/wdd231/chamber/directory.html">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo-section">
+    <!-- Placeholder for Favicon/Logo -->
+    <img src="images/logo.svg" alt="Ikeja Chamber Logo Placeholder">
+    <a href="index.html" class="site-title">Ikeja Chamber of Commerce</a>
+        </div>
+        <button id="ham-btn" class="hamburger" aria-label="Open the main menu"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="discover.html">Discover</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Ikeja Business Directory</h1>
+        <div class="menu">
+            <button id="gridButton" class="menu-btn">Grid</button>
+            <button id="listButton" class="menu-btn">List</button>
+        </div>
+        <article class="grid">
+            <div id="cards" class="cards"></div>
+        </article>
+    </main>
+
+    <footer>
+        <section>
+            <div>
+                <h3>Ikeja Chamber of Commerce</h3>
+                <p>Address: 1 Adeyemo Alakija Street, Ikeja, Lagos, Nigeria</p>
+                <p>Phone: (234) 800-555-4000</p>
+                <p>Email: info@ikejachamber.org</p>
+            </div>
+        </section>
+        <section>
+            <div class="social">
+            <a href="https://www.linkedin.com/in/samantha-adeghe/" target="_blank"><img src="images/facebook.svg" alt="facebook"
+                    width="30" height="30"></a>
+            <a href="https://www.linkedin.com/in/samantha-adeghe/" target="_blank"><img src="images/linkedin.svg" alt="linked in"
+                    width="30" height="30"></a>
+            <a href="https://github.com/samadeghe" target="_blank"><img src="images/github.svg" alt="githubicon" width="30"
+                    height="30"></a>
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>WDD231 Class Project</p>
+                <p>Samantha Adeghe</p>
+                <p><span id="currentyear"></span></p>
+                <p><span id="lastModified"></span></p>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory | Ikeja Chamber of Commerce</title>
+    <meta name="description"
+        content="Official business directory for the Ikeja Chamber of Commerce. Find local businesses, contact information, and services.">
+    <meta name="author" content="Samantha Adeghe">
+
+    <!-- Favicon (Placeholder - assume image is in /chamber/images/favicon.ico) -->
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Facebook Open Graph Meta Settings -->
+    <meta property="og:title" content="Ikeja Chamber of Commerce Official Directory">
+    <meta property="og:description"
+        content="Official business directory for the Ikeja Chamber of Commerce. Connecting businesses in Ikeja, Lagos.">
+    <!-- IMPORTANT: Replace with your actual hosted image URL for sharing -->
+    <meta property="og:image" content="https://yourdomain.com/chamber/images/og-directory-image.webp">
+    <!-- IMPORTANT: Replace with your actual page URL -->
+    <meta property="og:url" content="https://yourdomain.com/chamber/directory.html">
+
+    <!-- CSS Links (Order is important: Normalize first, then Custom) -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <!-- JavaScript Imports -->
+    <script src="scripts/main.js"></script>
+    <script src="scripts/directory.js"></script>
+
+    
+
+    <!-- Font Awesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-section">
+            <!-- Placeholder for Favicon/Logo -->
+            <img src="images/logo.svg" alt="Ikeja Chamber Logo Placeholder">
+            <a href="index.html" class="site-title">Ikeja Chamber of Commerce</a>
+        </div>
+
+        <button class="menu-button" aria-expanded="false" aria-controls="main-navigation"
+            aria-label="Toggle Navigation">
+            &#9776; <!-- Hamburger Icon -->
+        </button>
+
+        <nav id="main-navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Business Directory</h1>
+        <p>Find registered members of the Ikeja Chamber of Commerce below. Use the toggle buttons to change the layout
+            view.</p>
+
+        <div class="directory-controls">
+            <button id="grid-view-btn" class="view-toggle-btn">Grid View</button>
+            <button id="list-view-btn" class="view-toggle-btn">List View</button>
+        </div>
+
+        <!-- Directory content is dynamically inserted here by JavaScript -->
+        <div id="member-container">
+            <p>Loading member data...</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="chamber-info">
+                <h3>Ikeja Chamber of Commerce</h3>
+                <p>1 Adeyemo Alakija Street, Ikeja, Lagos, Nigeria</p>
+                <p>Email: <a href="mailto:info@ikejachamber.org" style="color: inherit;">info@ikejachamber.org</a></p>
+                <p>Phone: (234) 800-555-4000</p>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/samantha-adeghe/" target="_blank"><img src="images/facebook.svg" alt="facebook"
+                        width="30" height="30"></a>
+                <a href="https://www.linkedin.com/in/samantha-adeghe/" target="_blank"><img src="images/linkedin.svg"
+                        alt="linked in" width="30" height="30"></a>
+                <a href="https://github.com/samadeghe" target="_blank"><img src="images/github.svg" alt="githubicon" width="30"
+                        height="30"></a>
+            </div>
+
+            <div class="dev-info">
+                <p>WDD 231 Class Project | Samantha Adeghe</p>
+                <p>&copy; <span id="copyright-year"></span> Ikeja Chamber of Commerce</p>
+                <p>Last Modification: <span id="last-modification"></span></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
